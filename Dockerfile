@@ -2,9 +2,6 @@
 
 # Test command
 # sudo docker container rm --force teste123098; sudo docker build -t teste123098 -f Dockerfile . && sudo docker run --name teste123098 --interactive -p 127.1.2.3:80:80 teste123098
-#
-#
-
 
 # Download the SDK image from microsoft
 FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build-image
